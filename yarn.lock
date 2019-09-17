@@ -9174,9 +9174,9 @@ react-refresh@^0.4.0:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.4.0.tgz#d421f9bd65e0e4b9822a399f14ac56bda9c92292"
   integrity sha512-bacjSio8GOtzNZKZZM6EWqbhlbb6pr28JWJWFTLwEBKvPIBRo6/Ob68D2EWZA2VyTdQxAh+TRnCYOPNKsQiXTA==
 
-react-scripts@3.1.1:
+react-scripts@^3.1.1:
   version "3.1.1"
-  resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-3.1.1.tgz#1796bc92447f3a2d3072c3b71ca99f88d099c48d"
+  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.1.1.tgz#1796bc92447f3a2d3072c3b71ca99f88d099c48d"
   integrity sha512-dbjTG9vJC61OI62hIswQYg5xHvwlxDTH6QXz6ICEuA5AqkFQWk1LKl76sk8fVL2WsyumbBc4FErALwKcEV2vNA==
   dependencies:
     "@babel/core" "7.5.5"
