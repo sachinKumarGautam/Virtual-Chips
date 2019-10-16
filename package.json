@@ -1,10 +1,13 @@
 {
-  "name": "myprojectname",
-  "version": "0.0.1",
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  }
+    "name": "myprojectname",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "dependencies": {
+        "firebase-functions": "^3.2.0"
+    }
 }
