@@ -3,15 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "compile": "tsc -b --incremental",
-    "ios": "react-native run-ios",
-    "lint": "eslint .",
-    "prestart": "npm run compile",
-    "start": "concurrently \"npm run compile -- -w\" \"react-native start\"",
-    "studio": "studio android",
-    "test": "jest",
-    "xcode": "open ios/myprojectname.xcworkspace"
+    "start": "node ../../node_modules/react-native/local-cli/cli.js start --projectRoot=../../",
+    "test": "jest"
   },
   "dependencies": {
     "components": "0.0.1",
